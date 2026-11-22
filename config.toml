@@ -11,13 +11,14 @@ theme = "hugo-theme-learn"
 home = [ "HTML", "RSS", "JSON"]
 
 [params]
-  # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = "workshop"
+  themeVariant = "blue"
+  custom_css = ["css/custom-theme.css"]
   # Git hub repo link
   editURL = ""
   description = ""
   author = "thienlh@thienlu.com"
-  showVisitedLinks = true
+  showVisitedLinks = false
+  DisableShortcutsTitle = true
   disableBreadcrumb = false
   disableNextPrev = false
   
@@ -28,16 +29,10 @@ weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
-identifier = "AWS Study Group"
-url = "https://awsstudygroup.com"
-weight = 20
-
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group - FB Group"
-identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj"
-weight = 20
+name = "<i class='fas fa-home'></i> Internship Report"
+identifier = "home"
+url = "/"
+weight = 1
 
 [Languages.vi]
 title = "Báo cáo thực tập"
@@ -45,16 +40,10 @@ weight = 2
 languageName = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
-name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
-identifier = "AWS Study Group"
-url = "http://awsstudygroup.com"
-weight = 20
-
-[[Languages.vi.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhóm FB"
-identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj"
-weight = 20
+name = "<i class='fas fa-home'></i> Báo cáo thực tập"
+identifier = "home"
+url = "/vi/"
+weight = 1
 
 [markup]
   [markup.goldmark]
