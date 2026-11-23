@@ -42,7 +42,7 @@ weight = 20
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> QuangVy999"
-identifier = "Quang Vỹ"
+identifier = "Quang Vy"
 url = "https://github.com/QuangVy999"
 weight = 20
 
@@ -59,7 +59,7 @@ weight = 20
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-github'></i> QuangVy999"
-identifier = "Quang Vỹ"
+identifier = "Quang Vy"
 url = "https://github.com/QuangVy999"
 weight = 20
 
