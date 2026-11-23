@@ -21,7 +21,7 @@ home = [ "HTML", "RSS", "JSON"]
   DisableShortcutsTitle = true
   disableBreadcrumb = false
   disableNextPrev = false
-  
+
 [Languages]
 [Languages.en]
 title = "Internship Report"
@@ -33,11 +33,22 @@ name = "<i class='fas fa-home'></i> Internship Report"
 identifier = "home"
 url = "/"
 weight = 1
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-facebook'></i> Quang Vy"
+identifier = "Quang Vỹ"
+url = "https://www.facebook.com/quang.vy.60334"
+weight = 20
 
 [Languages.vi]
 title = "Báo cáo thực tập"
 weight = 2
 languageName = "Tiếng Việt"
+
+[[Languages.vi.menu.shortcuts]]
+name = "<i class='fab fa-facebook'></i> Quang Vỹ"
+identifier = "Quang Vỹ"
+url = "https://www.facebook.com/quang.vy.60334"
+weight = 20
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fas fa-home'></i> Báo cáo thực tập"
