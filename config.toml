@@ -36,7 +36,7 @@ weight = 1
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> Quang Vy"
-identifier = "Quang Vy"
+identifier = "Quang Vỹ"
 url = "https://www.facebook.com/quang.vy.60334"
 weight = 20
 
@@ -58,8 +58,8 @@ url = "https://www.facebook.com/quang.vy.60334"
 weight = 20
 
 [[Languages.vi.menu.shortcuts]]
-name = "<i class='fab fa-github'></i> Quang Vy"
-identifier = "Quang Vy"
+name = "<i class='fab fa-github'></i> QuangVy999"
+identifier = "Quang Vỹ"
 url = "https://github.com/QuangVy999"
 weight = 20
 
