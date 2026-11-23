@@ -33,10 +33,17 @@ name = "<i class='fas fa-home'></i> Internship Report"
 identifier = "home"
 url = "/"
 weight = 1
+
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> Quang Vy"
-identifier = "Quang Vỹ"
+identifier = "Quang Vy"
 url = "https://www.facebook.com/quang.vy.60334"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-github'></i> QuangVy999"
+identifier = "Quang Vỹ"
+url = "https://github.com/QuangVy999"
 weight = 20
 
 [Languages.vi]
@@ -48,6 +55,12 @@ languageName = "Tiếng Việt"
 name = "<i class='fab fa-facebook'></i> Quang Vỹ"
 identifier = "Quang Vỹ"
 url = "https://www.facebook.com/quang.vy.60334"
+weight = 20
+
+[[Languages.vi.menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Quang Vy"
+identifier = "Quang Vy"
+url = "https://github.com/QuangVy999"
 weight = 20
 
 [[Languages.vi.menu.shortcuts]]
