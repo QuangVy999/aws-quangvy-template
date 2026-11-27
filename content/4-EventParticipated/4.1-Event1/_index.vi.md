@@ -55,8 +55,8 @@ pre: " <b> 4.1. </b> "
 - Tính năng Break down context để kiểm tra chi tiết lương token đã tiêu hao.
 
 #### Bài học rút ra
-- Việc sử dụng AI để chăm sóc khách hàng và phỏng vấn công việc cực kì hay vì nó tiết kiệm một chút thời gian cho quản lý.
-- Sử dụng dịch vụ AWS RAM để chia sẻ tài nguyên từ cha sang con giúp tiêu tốn ít thời gian ngoài ra còn kiếm soát cực kì mạnh.
+- Em thấy việc sử dụng AI để chăm sóc khách hàng cũng như phỏng vấn công ty, danh nghiệp là cực kì hay và mới lạ vì trước giờ việc chăm sóc khách hàng, phỏng vấn công ty là sự trao đổi qua lại giữa người và người với nhau , nhưng đối với session của anh Kiệt thì em thấy Ai có thể thay con người trong các việc đó , giúp tiết kiệm thời gian cho quản lý.
+- Sử dụng dịch vụ AWS RAM mà anh Long nói để chia sẻ tài nguyên từ cha sang con giúp tiêu tốn ít thời gian ngoài ra còn kiếm soát cực kì mạnh thì em cảm giác thấy mơ hồ, chưa nghĩ được ý tưởng của anh nhưng mà em hiểu một cách khác về dịch vụ AWS RAM mà anh nói 
 - Dùng AI Pentest để kiểm tra hạ tầng doanh nghiệp giúp giảm chi phí thuê nhưng nhược điểm là về vấn đề bảo mật
 #### Một số hình ảnh khi tham gia sự kiện
 ![overview](/images/4-Event/Event1.jpg)

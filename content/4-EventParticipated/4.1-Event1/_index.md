@@ -56,9 +56,9 @@ pre: " <b> 4.1. </b> "
 
 #### Lessons Learned
 
-- Using AI for customer service and job interviews is highly useful because it helps managers save time.
-- Using AWS RAM to share resources from parent accounts to member accounts helps save time while providing strong resource control.
-- Using AI-powered penetration testing to assess enterprise infrastructure helps reduce hiring costs. However, security remains a concern.
+- I found the use of AI in customer service and job interviews extremely interesting and innovative. Traditionally, customer service and job interviews have involved direct communication between people. However, through Mr. Kiet's session, I realized that AI could take over some of these tasks, helping managers save time.
+- Using AWS RAM, as introduced by Mr. Long, to share resources from parent accounts to member accounts helps save time while providing strong resource control. Although I still found his approach somewhat unclear and had not fully grasped his idea, the session helped me gain a different perspective on the AWS RAM service.
+- Using AI-powered penetration testing to assess enterprise infrastructure helps reduce the cost of hiring penetration testing teams. However, security remains a concern.
 
 #### Some Photos Taken During the Event
 

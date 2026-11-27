@@ -4,7 +4,6 @@ date: 2026-09-21
 weight: 1
 chapter: false
 ---
-
     
 # Internship Report
 
@@ -17,9 +16,7 @@ chapter: false
 
 &emsp; **University:** University of Management and Technology Ho Chi Minh City
 
-&emsp; **Major:** Information Technology
-
-&emsp; **Class:** AWS092026
+&emsp; **Major:** Software Engineering
 
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 

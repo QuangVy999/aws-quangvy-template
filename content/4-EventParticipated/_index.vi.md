@@ -1,12 +1,12 @@
 ---
 title: "Các events đã tham gia"
-date: 2024-01-01
+date: 2026-11-27
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là mỗi chủ đề khác nhau nhưng em đã tiếp thu được rất nhiều những kiến thức mới, rất hay và bổ ích , với đó là các câu hỏi thắc mắc đã được các diễn giả phản biện rất hài lòng
+**Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là mỗi chủ đề khác nhau nhưng em đã tiếp thu được rất nhiều những kiến thức mới, rất hay và bổ ích , với đó là các câu hỏi thắc mắc đã được các diễn giả chia sẻ, góp ý và phản biện rất hài lòng.**
 
 ### [Event 1](4.1-Event1/)
 &emsp;**Tên sự kiện:** Buổi Meetup để giao lưu , học hỏi kiến thức , kinh nghiệm từ các anh chị Leader
