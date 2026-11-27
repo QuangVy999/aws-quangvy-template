@@ -7,7 +7,7 @@ pre: " <b> 1.1. </b> "
 ---
 
 
-### Mục tiêu Tuần 1:
+### * Mục tiêu của Tuần 1:
 
 * Ngày đầu làm quen với môi trường thực tập của chương trình First Cloud AI Journey tại AWS.
 * Làm quen với các thành viên trong nhóm.
@@ -15,7 +15,7 @@ pre: " <b> 1.1. </b> "
 * Đọc nội quy , quy định khi đang thực tập tại AWS.
 * Tạo tài khoản FCAJ Portal để đăng ký lên văn phòng.
 
-### Các công việc cần triển khai trong tuần này:
+### * Các công việc thực hiện trong Tuần 1 :
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2   | - Làm quen với môi trường thực tập <br> - Đọc và lưu ý các nội quy, quy định cần tránh khi đang thực tập                                                                                             | 21/09/2025   | 21/09/2025      | <https://hcm-rules.awsfcaj.com/>
@@ -25,7 +25,7 @@ pre: " <b> 1.1. </b> "
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
-### Kết quả đạt được tuần 1:
+### * Kiến thức đã được tiếp thu ở Tuần 1 :
 
 * Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
   * Compute

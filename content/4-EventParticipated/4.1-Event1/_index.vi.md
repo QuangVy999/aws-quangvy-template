@@ -1,125 +1,65 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-10-24
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
-
-### Mục Đích Của Sự Kiện
-
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+# Bài thu hoạch “Buổi Meetup để giao lưu , học hỏi kiến thức , kinh nghiệm từ các anh chị Leader  ”
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Anh Kiệt Trần** 
+- **Anh Hoàng Long** 
+- **Anh Thịnh**
+- **Anh Xuân An**
+- **Anh Khoa Kiều và anh Nghi Danh**
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Session 1: Anh Kiệt 
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+- Chia sẻ về kinh nghiệm và quá trình tạo ra Model AI.
+- Sử dụng Model AI để chăm sóc khách hàng và phỏng vấn trong Doanh nghiệp.
+- Anh đưa ra các chi phí , cách để làm Model , đưa ra cấu trúc Architecture.
+- Cách chọn Model AI nào để làm và training.
+- Live Demo AI gọi điện phỏng vấn vị trí Cloud Engineer bằng Tiếng Việt.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### Session 2: Anh Long
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- Nói về dịch vụ AWS RAM chia sẻ tài nguyên từ tài khoản cha đến tài khoản con.
+- AWS RAM giúp giảm công sức về vận hành , bảo mật , kiểm soát và quản lý tài nguyên.
+- Có thể giám sát ai là người giao tài nguyên , ai là người được nhận tài nguyên và có quyền gì.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### Session 3: Anh Thịnh
 
-#### Domain-Driven Design (DDD)
+- Nói về vấn đề thuê đội ngũ để Pentest hạ tầng làm tốn thời gian và chi phí.
+- Dùng AI Pentest hạ tầng trên các môi trường doanh nghiệp mạnh hơn.
+- Dùng Security Agents để Pentest các lỗ hỗng khi triển khai môi trường thực tế bằng 3 tính năng.
+- Có thể gán vào GitHub , CI/CD ở code , có vài nhược điểm về MFA, Biometrics và mTLS.
+- Có video live Demo về Pentest AI Agents.
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+#### Session 4: Anh An
 
-#### Event-Driven Architecture
+- Nhìn về hai nền tảng để đưa Agent lên Production.
+- Agent Runtime chạy MicroVN trên EC2 Spot siêu tiết kiệm.
+- Hệ thống Memory phân tầng Short-term đồng bộ và Long-term bất đồng bộ.
+- Để Agent hiểu sâu về ngữ cảnh của người dùng.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+#### Session 5: Anh Khoa Kiều và anh Nghi Danh
 
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
-
-### Những Gì Học Được
-
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+- Đưa ra bài toán để AI Agent chạy 24/7 hỗ trợ review code và kiểm tra hệ thống.
+- Đưa ra cách Kiro Crew tạo Artifacts: tự động lấy dữ liệu từ thực tế về và dựng biểu đồ trực quan.
+- Quản trị Context Window : cơ chế Auto Compact khi ngữ cảnh chạm tới 70-90%.
+- Tính năng Break down context để kiểm tra chi tiết lương token đã tiêu hao.
 
 #### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
+- Việc sử dụng AI để chăm sóc khách hàng và phỏng vấn công việc cực kì hay vì nó tiết kiệm một chút thời gian cho quản lý.
+- Sử dụng dịch vụ AWS RAM để chia sẻ tài nguyên từ cha sang con giúp tiêu tốn ít thời gian ngoài ra còn kiếm soát cực kì mạnh.
+- Dùng AI Pentest để kiểm tra hạ tầng doanh nghiệp giúp giảm chi phí thuê nhưng nhược điểm là về vấn đề bảo mật
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+![overview](/images/4-Event/Event1.jpg)
+![overview](/images/4-Event/Event2.jpg)
+![overview](/images/4-Event/Event3.jpg)
+![overview](/images/4-Event/Event4.jpg)
